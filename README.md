@@ -13,5 +13,5 @@ cd your-app
 git remote remove origin
 # edit the package.json, then continue on
 npm install
-npm start
+npm run dev
 ```
