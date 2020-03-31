@@ -1,4 +1,4 @@
-# componentization
+# Modular visualization components
 
 ### 本案例升级了 
 
