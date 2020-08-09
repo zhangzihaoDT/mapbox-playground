@@ -3,22 +3,24 @@ body {
   margin: 0;
   padding: 0;
 }
-
-.module {
-  min-height: 600px;
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
 }
-
-.axis .domain {
-  display: none;
+h1,
+span {
+  font-size: 0.9rem;
+  color: #ffffff;
+  margin: 2rem;
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
-
-.axis line {
-  opacity: 0.2;
-}
-
-.chart {
-  width: 400px;
-  height: 300px;
-  float: left;
-  margin: 20px;
+h1 {
+  font-size: 1.2rem;
+  bottom: 20px;
 }
